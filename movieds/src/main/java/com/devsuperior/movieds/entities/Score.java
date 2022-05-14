@@ -7,7 +7,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_score")
 public class Score {
-	 @EmbeddedId
+	
+	@EmbeddedId
 	private ScorePK id = new ScorePK();
 	private Double value;
 	
